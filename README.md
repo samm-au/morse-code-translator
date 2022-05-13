@@ -2,6 +2,8 @@
 
 ## Link to live website
 
+[Link](https://samm-au.github.io/morse-code-translator/)
+
 ## About
 
 A morse code translator that takes inputs from users and translates from Morse code to English and vice versa.
@@ -22,11 +24,11 @@ Must look NICE, this will go on your portfolio
 
 ## Technologies used
 
-HTML
-CSS
-Sass
-Javascript
-Jest
+⋅⋅* HTML
+⋅⋅* CSS
+⋅⋅* Sass
+⋅⋅* Javascript
+⋅⋅\* Jest
 
 ## Thought process
 
