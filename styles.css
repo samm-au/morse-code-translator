@@ -26,6 +26,9 @@ main div form {
   text-align: center;
   background-color: white;
 }
+main div form:hover {
+  box-shadow: 0px 0px 10px 0px #a3cae8;
+}
 main div form textarea {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 10px;
