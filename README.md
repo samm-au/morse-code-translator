@@ -1,6 +1,6 @@
 # Morse Code Translator
 
-## Link to live website
+## Link to Live website
 
 [Link](https://samm-au.github.io/morse-code-translator/)
 
@@ -13,14 +13,18 @@ How it works is that the user adds some text in the input fields and click the s
 ## MVP
 
 Create a webpage that allows users to input english and get a more code output, and input morse code and get an english output
-MVP:
-Must support the alphabet, spaces, numbers
-Must give user feedback when they input unsupported characters
-Must be able to translate both ways
-Project must use javascript modules to seperate dom logic from vanilla js logic
+
+Must support the alphabet, spaces, numbers.
+
+Must give user feedback when they input unsupported characters.
+
+Must be able to translate both ways.
+
+Project must use javascript modules to seperate dom logic from vanilla js logic.
+
 Can use react, or vanilla js.
-Functions you write must be unit tested (you won't be able to write unit tests for function that interact with the dom)
-Must look NICE, this will go on your portfolio
+
+Functions you write must be unit tested (you won't be able to write unit tests for function that interact with the dom).
 
 ## Technologies used
 
