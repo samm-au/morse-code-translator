@@ -24,11 +24,11 @@ Must look NICE, this will go on your portfolio
 
 ## Technologies used
 
-⋅⋅* HTML
-⋅⋅* CSS
-⋅⋅* Sass
-⋅⋅* Javascript
-⋅⋅\* Jest
+- HTML
+- CSS
+- Sass
+- Javascript
+- Jest
 
 ## Thought process
 
