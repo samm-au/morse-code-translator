@@ -1,5 +1,8 @@
 # Morse Code Translator
 
+![Screen Shot 2022-05-13 at 12 39 43 pm](https://user-images.githubusercontent.com/97388878/168226443-10135fc8-2d18-48d8-9514-1b5c24ff2ba0.png)
+
+
 ## Link to Live website
 
 [Link](https://samm-au.github.io/morse-code-translator/)
