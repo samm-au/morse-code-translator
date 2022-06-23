@@ -1,7 +1,12 @@
-import { morseCode, morseCodeEnglish } from "./morseCode.js";
+import { morseCode } from "./morseCode.js";
 
 const capitalizeFirstLetter = (string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
+};
+
+//Getting key based on given value
+const getKeyByValue = (object, value) => {
+  return Object.keys(object).find((key) => object[key] === value);
 };
 
 export const convertToMorse = (str) => {
@@ -21,20 +26,20 @@ export const convertToMorse = (str) => {
     .join("/");
 };
 
-export const convertToEnglish = (morseCode) => {
+export const convertToEnglish = (morseCodeInput) => {
   return capitalizeFirstLetter(
-    morseCode
-      .split("/")
-      .map((morseCodeWord) =>
-        morseCodeWord
-          .split(" ")
-          .map((morseCodeLetter) =>
-            morseCodeEnglish[morseCodeLetter]
-              ? morseCodeEnglish[morseCodeLetter]
-              : "Please type in morse code"
+    // Checking if the input is morse code
+    morseCodeInput.includes("/") || morseCodeInput.includes(" ")
+      ? morseCodeInput
+          .split("/")
+          .map((word) =>
+            word
+              .split(" ")
+              .map((letter) => getKeyByValue(morseCode, letter))
+              .join("")
+              .toLowerCase()
           )
-          .join("")
-      )
-      .join(" ")
+          .join(" ")
+      : "Invalid characters"
   );
 };

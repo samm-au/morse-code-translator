@@ -16,7 +16,7 @@ describe("Testing app functions", () => {
     );
   });
 
-  it("should convert to Morse Code regarless of case", () => {
+  it("should convert to Morse Code regardless of case", () => {
     expect(convertToMorse("heLLo there")).toBe(
       ".... . .-.. .-.. ---/- .... . .-. ."
     );
