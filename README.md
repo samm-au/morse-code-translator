@@ -45,12 +45,10 @@ I wanted to keep things simple and have both English to Morse and Morse to Engli
 Logic:
 I needed to somehow grab the user's input and take the user's input and produce an outcome in the box below at event where the submit button was clicked.
 
-Initially, I used one object which was the morseCode and I was able to write the logic to convert English to Morse code. Then when I tried to use the same object to convert Morse code to English, I struggled and realised that I was spending too much time.
-
-I found it was easier and faster to create a new object for this function but I know if I had a bit more time, I would have been able to create a new function to pair values with its keys in the first morseCode object and then not requiring to use another object.
+Initially, I used one object which was the morseCode and I was able to write the logic to convert English to Morse code and wrote a function to do vice versa.
 
 Once I was able to append the output onto the page, I added more conditions, such as if the input characters are invalid - display a message.
 
 I organised my code and seperated the dom components into its own file and other bulky code like the morseCode objects into another. I then imported and exported relevant functions and data to make sure the functionality is all hooked up properly.
 
-In the future, I'd focus on writing out the tests properly at the early stages of the app building and as mentioned find a better way to utilise the one object instead of using two.
+In the future, I'd focus on writing out the tests properly at the early stages of the app building.
